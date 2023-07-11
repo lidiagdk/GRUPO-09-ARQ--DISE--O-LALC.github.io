@@ -1,0 +1,110 @@
+* {
+
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.padre {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.margen-interno {
+    padding: 10 50px;
+    margin: 50px;
+}
+
+.header {
+
+    background: url(../css/images/BBVA-innovacion-construcción-sostenible-apertura.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.menu {
+
+    display: flex;
+    background: rgb(136, 141, 149);
+    flex-flow: row nowrap;
+    height: 80px;
+    align-items: center;
+    border-bottom: 1px solid rgba 255, 255, 255, .5;
+    text-align: center;
+
+
+
+}
+
+.logo {
+    flex: 1 1 auto;
+    font-size: 40px;
+}
+
+.logo p a {
+    color: rgb(20, 21, 20);
+    font-size: 30px;
+    float: none;
+}
+
+.logo a:hover {
+    color: black;
+}
+
+.nav {
+    flex: 5 1 auto;
+}
+
+.nav a {
+    color: rgb(236, 226, 226);
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    letter-spacing: 2px;
+    float: left;
+}
+
+nav ul li {
+    display: inline;
+}
+
+.nav a:hover {
+    color: black;
+}
+
+.social {
+
+    flex: 1 1 auto;
+    display: flex;
+}
+
+.social a {
+    font-size: 18px;
+    color: rgb(236, 226, 226);
+    padding: 0 5px;
+}
+
+.social a:hover {
+    color: black;
+}
+
+.texto-principal {
+ 
+    height: 580px;
+    display: flex;
+    align-items: center;
+}
